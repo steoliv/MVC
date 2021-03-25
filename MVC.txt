@@ -1,0 +1,22 @@
+﻿MVC - Model View controller
+
+
+MVC é uma Architectural Pattern (Padrão de arquitetura). A arquitetura não se preocupa com o código em si, mas como os componentes da aplicação estão interconectados.
+Nos possibilita pensar em termos não funcionais da aplicação 
+
+
+Requisitos funcionais - Representam recursos da aplicação em si , ou seja, ligados diretamente às funcionalidades da aplicação.
+        Exp: Recurso de autenticação do usuário, formulário de cadastro, carrinho de compra, e-mail de contato..
+A partir dos requisitos funcionais, é possível identificar diversos design pattern que poderão ser utilizados para resolver problemas relativos às funcionalidades da aplicação em si, a nível de código mesmo.
+
+
+Requisito  não funcionais - Recursos que não estão diretamente relacionados com as funcionalidades da aplicação.
+        Exp: O tempo de processamento, a disponibilidade, a        compatibilidade,  a segurança , a estabilidade, até mesmo o preço…
+É possível identificar qual é o melhor architectural patttern para estruturar a aplicação como um todo , servindo como uma especificação abstrata do funcionamento da aplicação, tanto em termos de componentes da aplicação quanto do modo como esses componentes estão interconectados.
+Essa definição de arquitetura permite, por exemplo, especificar, visualizar e documentar o funcionamento da aplicação. 
+
+
+Arquitetura MVC - Código é organizado por Model, view e controller. Ele é o coração da nossa aplicação web funcional.
+Controller - recebe todas as requisições e controla o que deve acontecer e quando.
+Model -  Responsável pela manipulação dos dados no banco de dados, ou seja, Camada de banco de dados e regras de negócio.
+View - Exibição dos dados (html, xml, json).
