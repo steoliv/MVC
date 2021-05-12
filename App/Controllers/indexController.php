@@ -4,11 +4,11 @@
     class IndexController {
 
         public function index(){ // representam as actions dos controladores (esse por exemplo é o da home)
-            echo 'cheamgos ao IndexController e disparamos a action index';
+            echo 'chegamgos ao IndexController e disparamos a action index <br/>';
         }
 
         public function sobreNos(){ 
-            echo 'cheamgos ao IndexController e disparamos a action sobreNos';
+            echo 'chegamgos ao IndexController e disparamos a action Sobre Nós';
 
         }
     }

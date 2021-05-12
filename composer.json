@@ -12,7 +12,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "App/",
-            "MF\\": "vendor/MF"
+            "MF\\": "vendor/MF" // concentra toda logica do framework
 
         }
     }

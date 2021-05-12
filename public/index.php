@@ -1,5 +1,5 @@
 <?php
-    require_once "../vendor/autoload.php";
+    require_once "../vendor/MF/autoload.php";
 
     $route = new \App\Route;  //Criando um objeto com base na classe Route
     // echo "Olá mundo. Isso está funcionando no MVC </br><hr>";
